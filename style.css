@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: black;
+  text-align: center;
+  color: seashell;
+  font-size: 22px;
+}
+
+header img {
+  margin-left: 10px;
+  height: 50px;
+}
+
+header {
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+  position: fixed;
+  display: flex;
+  height: 69px;
+  width: 100%;
+  z-index: 1;
+}
+
+nav {
+  justify-content: space-around;
+  display: flex;
+  width: 400px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: seashell;
+}
+
+.flex-container {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 69px;
+  display: flex;
+}
+
+#mission {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  align-items: center;
+  display: flex;
+  width: 1160px;
+  height: 700px;
+}
+
+.content {
+  justify-content: space-around;
+  background-color: black;
+  flex-direction: column;
+  display: flex;
+  height: 100px;
+  width: 100%;
+}
+
+#products {
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  width: 1000px;
+}
+
+#products.flex-container .content h4 {
+  margin-bottom: 20px;
+}
+
+#products .items img {
+  padding-bottom: 10px;
+  margin-right: 25px;
+  height: 200px;
+  width: 300px;
+}
+
+.items h4 {
+  padding-bottom: 20px;
+}
+
+#locations {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  align-content: flex-start;
+  justify-content: center;
+  margin-top: 49px;
+  flex-wrap: wrap;
+  display: flex;
+  width: 1160px;
+  height: 570px;
+}
+
+#locations h2 {
+  margin-top: 69px;
+  width: 100%;
+}
+
+#locations .items {
+  justify-content: space-around;
+  background-color: black;
+  flex-direction: column;
+  margin-right: 40px;
+  margin-top: 15px;
+  display: flex;
+  height: 300px;
+  width: 300px;
+}
+
+footer {
+  justify-content: space-around;
+  flex-direction: column;
+  display: flex;
+  height: 200px;
+}
+
+span h5 {
+  margin-left: 20px;
+  text-align: left;
+}
